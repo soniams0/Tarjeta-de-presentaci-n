@@ -1,0 +1,69 @@
+body {
+    background: #e9ddce;
+}
+
+.Portada {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-geometrico-abstracto-diseno-poli_1048-8354.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+    width: 551px;
+    border-radius: 4px;
+    margin-top: 60px;
+    border: solid 5px #769fc7;
+    margin-left: 26%;
+}
+
+#Nombre {
+    text-align: center;
+    padding-top: 82px;
+    font-family: 'Lilita One', cursive;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#Cargo {
+    text-align: center;
+    margin-top: 7px;
+}
+
+#Contraportada {
+    background: #f2f4f5;
+    height: 200px;
+    width: 513px;
+    font-size: 16px;
+    border-radius: 4px;
+    padding-top: 40px;
+    padding-bottom: 3px;
+    line-height: 1.5;
+    padding-left: 40px;
+    color: #3e1313;
+    margin-top: 30px;
+    position: relative;
+    border: solid 4px #769fc7;
+    margin-left: 26%;
+}
+
+#slogan {
+    position: absolute;
+    left: 26px;
+    bottom: 14px;
+    font-style: italic;
+    font-weight: 700
+}
+
+#mifoto {
+    height: 85%;
+    margin: -143px 26px 0px 331px;
+    border-radius: 10%;
+    cursor: pointer;
+    position: absolute;
+    transition: all 0.2s ease-in-out;
+    -webkit-box-shadow: 10px 10px 47px -13px rgba(69, 131, 255, 1);
+    -moz-box-shadow: 10px 10px 47px -13px rgba(69, 131, 255, 1);
+    box-shadow: 10px 10px 47px -13px rgba(69, 131, 255, 1);
+}
+
+#mifoto:hover {
+    border-radius: 50%;
+}
